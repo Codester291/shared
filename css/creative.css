@@ -10,7 +10,7 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-:root {
+ :root {
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -10735,8 +10735,8 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 72px);
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(92, 77, 66, 0.8)), to(rgba(92, 77, 66, 0.8))), url("https://images.unsplash.com/photo-1559585888-6b01c8ea796b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1629&q=80");
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("https://images.unsplash.com/photo-1559585888-6b01c8ea796b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1629&q=80");
+  /* background:  url("https://images.unsplash.com/photo-1499310392581-322cec0355a6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=968&q=80"); */
+  background:  url("https://images.unsplash.com/photo-1518557984649-7b161c230cfa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10749,7 +10749,7 @@ header.masthead h1 {
 
 @media (min-width: 992px) {
   header.masthead {
-    height: 82vh;
+    height: 110vh;
     min-height: 20rem;
     padding-top: 72px;
     padding-bottom: 0;
@@ -10834,7 +10834,7 @@ header.masthead h1 {
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #7D3F7C; 
+    background: #f4623a; 
   }
 
 .bounceimg{
@@ -10897,16 +10897,15 @@ header .container {
   z-index: 2;
 }
 
-header .overlay {
+/* header .overlay {
   position: absolute;
   top: 0;
   left: 0;
   height: 100%;
   width: 100%;
-  /* background-color: black; */
   opacity: 0.5;
   z-index: 1;
-}
+} */
 
 @media (pointer: coarse) and (hover: none) {
   header {
@@ -10932,6 +10931,17 @@ header .overlay {
   color: #fff;
 }
 #about{
-  background: #fff;
+  background: url('https://cdn.dribbble.com/users/160641/screenshots/4030924/dribbble-airbnb4.png');
   color: #000;
+  padding-bottom: 130px;
+  background-size: cover;
+}
+.carousel-item {
+  height: 65vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
