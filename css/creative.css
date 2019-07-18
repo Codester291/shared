@@ -11379,7 +11379,7 @@ header .container {
   background-size: cover;
 }
 .carousel{
-  height: 120vh;
+  height: 100vh;
   min-height: 350px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
@@ -11388,7 +11388,7 @@ header .container {
   background-size: cover;
 }
 .carousel-item {
-  height: 120vh;
+  height: 100vh;
   min-height: 350px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
